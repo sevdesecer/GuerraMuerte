@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7591bbaf-f994-46f2-ba38-d5279a1a0125" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Locations/BattleLocations/BattleLocations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Locations/BattleLocations/Cave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Locations/BattleLocations/Forest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Locations/BattleLocations/River.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Locations/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Locations/NormalLoc/NormalLoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Locations/NormalLoc/SafeHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Locations/NormalLoc/ToolStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Warriors/Archer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Warriors/Knight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Warriors/Samurai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Warriors/Warriors.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NMJTsYsE34IsG760QYGE3NH4Dj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GuerraMuerte.Main" />
+      <module name="GuerraMuerte" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GuerraMuerte.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7591bbaf-f994-46f2-ba38-d5279a1a0125" name="Changes" comment="" />
+      <created>1679468034698</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679468034698</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
