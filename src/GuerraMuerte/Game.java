@@ -20,7 +20,5 @@ public class Game {
         System.out.println("Welcome to our island " + player.getName() + ".Please select one of warriors.");
         player.selectWarriors();
         player.selectLoc();
-
-
     }
 }
