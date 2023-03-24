@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7591bbaf-f994-46f2-ba38-d5279a1a0125" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Locations/BattleLocations/BattleLocations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Locations/BattleLocations/Cave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Locations/BattleLocations/Forest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Locations/BattleLocations/River.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Locations/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Locations/NormalLoc/NormalLoc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Locations/NormalLoc/SafeHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Locations/NormalLoc/ToolStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Warriors/Archer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Warriors/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Warriors/Samurai.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Warriors/Warriors.java" afterDir="false" />
-    </list>
+    <list default="true" id="7591bbaf-f994-46f2-ba38-d5279a1a0125" name="Changes" comment="new project beginning" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,6 +64,28 @@
       <option name="presentableId" value="Default" />
       <updated>1679468034698</updated>
     </task>
+    <task id="LOCAL-00001" summary="new">
+      <created>1679654929367</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679654929367</updated>
+    </task>
+    <task id="LOCAL-00002" summary="new">
+      <created>1679654992634</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679654992634</updated>
+    </task>
+    <task id="LOCAL-00003" summary="new project beginning">
+      <created>1679655259155</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679655259155</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,5 +98,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new" />
+    <MESSAGE value="new project beginning" />
+    <option name="LAST_COMMIT_MESSAGE" value="new project beginning" />
   </component>
 </project>
