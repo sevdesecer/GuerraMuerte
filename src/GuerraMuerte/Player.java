@@ -21,7 +21,7 @@ public class Player {
     private String name;
     private Scanner input = new Scanner(System.in);
 
-    int selectLoc = input.nextInt();
+
 
 
     public Player(String name) {
@@ -47,6 +47,7 @@ public class Player {
             System.out.println(locations.getId() + " : " + locations.getName());
         }
         System.out.println("Please select the location you want to go: ");
+        int selectLoc = input.nextInt();
 
         while (selectLoc < 1 || selectLoc > locationList.length) {
             System.out.print("\nPlease enter a valid value between 1 and " + locationList.length + ": ");

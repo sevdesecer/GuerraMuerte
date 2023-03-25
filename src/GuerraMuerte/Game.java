@@ -17,8 +17,9 @@ public class Game {
         System.out.println("Firstly please enter your name and surname : ");
         String playerName = input.nextLine();
         Player player = new Player(playerName);
-        System.out.println("Welcome to our island " + player.getName() + ".Please select one of warriors.");
+        System.out.println("Welcome to our island " + player.getName() + ".Here are our warriors.");
         player.selectWarriors();
+        System.out.println("Now it's time to choose your starting location.");
         player.selectLoc();
     }
 }
