@@ -8,7 +8,7 @@ public class Forest extends BattleLocations{
         super(player, "Forest", 4);
     }
     @Override
-    public boolean onLocation() {
-        return false;
+    public void onLocation() {
+
     }
 }

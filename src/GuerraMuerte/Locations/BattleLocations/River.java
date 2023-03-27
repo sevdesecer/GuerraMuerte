@@ -8,7 +8,7 @@ public class River extends BattleLocations{
         super(player, "River", 5);
     }
     @Override
-    public boolean onLocation() {
-        return false;
+    public void onLocation() {
+
     }
 }

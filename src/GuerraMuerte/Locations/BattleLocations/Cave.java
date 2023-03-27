@@ -8,8 +8,8 @@ public class Cave extends BattleLocations{
         super(player, "Cave", 3);
     }
     @Override
-    public boolean onLocation() {
-        return false;
+    public void onLocation() {
+
     }
 
 }

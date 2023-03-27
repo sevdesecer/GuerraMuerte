@@ -2,11 +2,15 @@ package GuerraMuerte.Locations;
 
 import GuerraMuerte.Player;
 
+import java.util.Scanner;
+
 public abstract class Location {
 
     private Player player ;
     private String name;
     private int id;
+    public static Scanner input = new Scanner(System.in);
+    private boolean isAlive = true;
 
     public Location (Player player, String name, int id){
 
@@ -15,7 +19,7 @@ public abstract class Location {
         this.id = id;
     }
 
-    public abstract boolean onLocation();
+    public abstract void onLocation();
 
     public String getName(){
         return this.name;
@@ -34,5 +38,13 @@ public abstract class Location {
     }
     public void setId(int id) {
         this.id = id;
+    }
+
+    public boolean isAlive() {
+        return isAlive;
+    }
+
+    public void setAlive(boolean alive) {
+        isAlive = alive;
     }
 }

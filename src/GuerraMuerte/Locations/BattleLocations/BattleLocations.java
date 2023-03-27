@@ -10,7 +10,6 @@ public class BattleLocations extends Location {
     }
 
     @Override
-    public boolean onLocation() {
-        return false;
+    public void onLocation() {
     }
 }
