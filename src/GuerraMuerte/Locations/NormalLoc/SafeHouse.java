@@ -14,7 +14,7 @@ public class SafeHouse extends NormalLoc {
         this.getPlayer().setMoney(this.getPlayer().getMoney() - 3);
         this.getPlayer().setHealthy(getPlayer().getFirstHealth());
 
-        System.out.println(" ===== ===== ===== ===== ===== ");
+        System.out.println("\n ===== ===== ===== ===== ===== ");
         System.out.println("Welcome to the safe house.There are no monsters here. You are safe.");
         System.out.println("Your health has been renewed. Your current health is " + this.getPlayer().getFirstHealth() + ".");
         System.out.println("Your rest period is over, what would you like to do? Please select what you want to do ?");
@@ -30,7 +30,7 @@ public class SafeHouse extends NormalLoc {
             case 0:
                 break;
             case 1:
-                System.out.println(" ===== ===== ===== ===== =====");
+                System.out.println("\n ===== ===== ===== ===== =====");
                 System.out.print("Your Weapons: ");
                 for (int i = 0; i < ToolStore.weaponsList.length; i++) {
                     if (ToolStore.weaponsList[i].isHaveWeapon()) {
@@ -43,7 +43,7 @@ public class SafeHouse extends NormalLoc {
                         System.out.print(ToolStore.armorList[i].getName() + "\t\t");
                     }
                 }
-                System.out.println("\n============================================");
+                System.out.println("\n ===== ===== ===== ===== ===== ");
                 break;
         }
     }

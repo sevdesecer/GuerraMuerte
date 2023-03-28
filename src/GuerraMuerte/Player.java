@@ -43,7 +43,7 @@ public class Player {
                     new Forest(this),
                     new River(this)};
 
-            System.out.println("==== Locations ====");
+            System.out.println("===== Locations ====="); // display locations
             for (Location locations : locationList) {
                 System.out.println(locations.getId() + " : " + locations.getName());
             }
@@ -75,6 +75,8 @@ public class Player {
 
             }
 
+            location.onLocation();
+
             if (!location.isAlive())
             {
                 System.out.println("GAME OVER...");
@@ -93,7 +95,7 @@ public class Player {
                     "\t First health : " + warriors.getFirstHealth() +
                     "\t Money : " + warriors.getMoney());
         }
-        System.out.println("------------------------");
+        System.out.println("\n ===== ===== ===== ===== ===== ");
         System.out.println("Please choose one of the warriors to start the game.You can choose by their id number.");
         int selectWarriors = input.nextInt();
 

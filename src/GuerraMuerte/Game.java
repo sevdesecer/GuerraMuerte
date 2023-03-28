@@ -13,7 +13,6 @@ public class Game {
                 "Good luck because you will need luck..\n" +
                 "You will learn the details soon, be patient. :) \n");
 
-
         System.out.println("Firstly please enter your name and surname : ");
         String playerName = input.nextLine();
         Player player = new Player(playerName);
