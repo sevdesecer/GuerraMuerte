@@ -41,6 +41,7 @@ public class ToolStore extends NormalLoc {
                 System.out.println("Come back when you have money, honey <3 .");
                 break;
         }
+        this.setAlive(true);
     }
 
     /// SELECT ARMORS

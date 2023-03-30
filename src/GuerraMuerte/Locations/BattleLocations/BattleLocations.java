@@ -10,6 +10,5 @@ public abstract class BattleLocations extends Location {
     }
 
     @Override
-    public void onLocation() {
-    }
+    public abstract void onLocation();
 }

@@ -11,6 +11,7 @@ import GuerraMuerte.Warriors.Knight;
 import GuerraMuerte.Warriors.Samurai;
 import GuerraMuerte.Warriors.Warriors;
 
+
 import java.util.Scanner;
 
 public class Player {
@@ -20,6 +21,7 @@ public class Player {
     private int firstHealth;
     private String name;
     private Scanner input = new Scanner(System.in);
+    private Inventory inventory = new Inventory();
 
     public Player(String name) {
         this.name = name;
@@ -31,6 +33,12 @@ public class Player {
         this.setName(warriors.getName());
         this.firstHealth = warriors.getFirstHealth();
     }
+    Location safeHouse = new SafeHouse(this);
+    Location toolStore = new ToolStore(this);
+    Location forest = new Forest(this);
+    Location cave = new Cave(this);
+    Location river = new River(this);
+    Location[] locationList = {safeHouse, toolStore, forest, cave, river};
 
     public void selectLoc() {
 
@@ -56,29 +64,31 @@ public class Player {
             }
             switch (selectLoc) {
                 case 1:
-                    location = new SafeHouse(this);
+                    location = safeHouse;
                     break;
                 case 2:
-                    location = new ToolStore(this);
+                    location = toolStore;
                     break;
                 case 3:
-                    location = new Forest(this);
+                    location = forest;
                     break;
                 case 4:
-                    location = new Cave(this);
+                    location = cave;
                     break;
                 case 5:
-                    location = new River(this);
+                    location = river;
                     break;
-                default:
-                    location = new SafeHouse(this);
-
             }
 
             location.onLocation();
 
+            if (this.getInventory().isFood() && this.getInventory().isWater() && this.getInventory().isWood()){
+                System.out.println("Yoou collected all items " + this.getName() + "." + "\n!!Congratulations!!");
+                break;
+            }
             if (!location.isAlive())
             {
+                System.out.println("You die <[o]>");
                 System.out.println("GAME OVER...");
                 break;
             }
@@ -101,13 +111,13 @@ public class Player {
 
         switch (selectWarriors){
             case 1:
-                initPlayer(new Samurai("Samurai", 1, 21, 5, 15, 0));
+                initPlayer(new Samurai("Samurai", 1, 21, 5, 15, 21));
                 break;
             case 2:
                 initPlayer(new Archer("Archer", 2,18,7,20,18));
                 break;
             case 3:
-                initPlayer(new Knight("Knight", 3, 24, 8, 5, 0));
+                initPlayer(new Knight("Knight", 3, 24, 8, 5, 24));
                 break;
             default:
                 System.out.println(" Bye bye chicken ;) ");
@@ -116,9 +126,9 @@ public class Player {
         }
 
         System.out.println("Selected warrior is : " + this.getName() + "  " +
-                "First healthy : " + this.getHealthy() + "  " +
-                "Damage : " + this.getDamage() + "  " +
-                "Money : " + this.getMoney());
+                "\nFirst healthy : " + this.getHealthy() + "  " +
+                "\nDamage : " + this.getDamage() + "  " +
+                "\nMoney : " + this.getMoney());
         System.out.println("La guerra esta comenzando...");
     }
 
@@ -162,4 +172,14 @@ public class Player {
     public void setFirstHealth(int firstHealth) {
         this.firstHealth = firstHealth;
     }
+
+
+    public Inventory getInventory() {
+        return inventory;
+    }
+
+    public void setInventory(Inventory inventory) {
+        this.inventory = inventory;
+    }
+
 }

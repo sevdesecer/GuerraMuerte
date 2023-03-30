@@ -15,8 +15,7 @@ public abstract class Monsters {
         this.firstHealth = firstHealth;
         this.earning = earning;
     }
-    // determines the number of monsters
-    public abstract int amountOfMonsters();
+    public abstract int randomAmountOfMonsters();
 
     public String getName() {
         return name;

@@ -1,9 +1,9 @@
 package GuerraMuerte.Monsters;
 
-public class Casper extends Monsters { //Zombie
+public class TeddyBear extends Monsters{ // Bear
 
-    public Casper(){
-        super("Casper",3,10,10,4);
+    public TeddyBear(){
+        super("Teddy Bear",7,20,20,12);
     }
 
     @Override
