@@ -70,10 +70,10 @@ public class Player {
                     location = toolStore;
                     break;
                 case 3:
-                    location = forest;
+                    location = cave;
                     break;
                 case 4:
-                    location = cave;
+                    location = forest;
                     break;
                 case 5:
                     location = river;

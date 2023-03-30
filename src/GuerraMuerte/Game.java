@@ -27,12 +27,12 @@ public class Game {
         System.out.println("Firstly please enter your name and surname : ");
         String playerName = input.nextLine();
         Player player = new Player(playerName);
-        System.out.println("Welcome to us dear " + player.getName() + "." +
+        System.out.println("Welcome to among us dear " + player.getName() + "." +
                 "\nNow I will give you some information before the death game starts." +
                 "\nIf you want to survive, you must listen to me carefully. " +
                 "\nTo live on this island you will need water, wood and of course food." +
                 "\nBut each of them is protected by terrible monsters on different battle locations." +
-                "\nYou have to fight and win to reach them." +
+                "\nYou have to fight and win to reach them.\n" +
                 "\n ===== ===== ===== ===== ===== " +
                 "\nYou have to get wood from the forest. " +
                 "\nYou're going to need a little arm muscle and a little courage for that." +

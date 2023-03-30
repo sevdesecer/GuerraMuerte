@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7591bbaf-f994-46f2-ba38-d5279a1a0125" name="Changes" comment="new project beginning.">
-      <change afterPath="$PROJECT_DIR$/src/GuerraMuerte/Inventory.java" afterDir="false" />
+    <list default="true" id="7591bbaf-f994-46f2-ba38-d5279a1a0125" name="Changes" comment="new changes have been made.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GuerraMuerte/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuerraMuerte/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GuerraMuerte/Locations/BattleLocations/BattleLocations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuerraMuerte/Locations/BattleLocations/BattleLocations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GuerraMuerte/Locations/BattleLocations/Cave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuerraMuerte/Locations/BattleLocations/Cave.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GuerraMuerte/Locations/BattleLocations/Forest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuerraMuerte/Locations/BattleLocations/Forest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GuerraMuerte/Locations/BattleLocations/River.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuerraMuerte/Locations/BattleLocations/River.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GuerraMuerte/Locations/NormalLoc/ToolStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuerraMuerte/Locations/NormalLoc/ToolStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GuerraMuerte/Monsters/Casper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuerraMuerte/Monsters/Casper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GuerraMuerte/Monsters/Monsters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuerraMuerte/Monsters/Monsters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GuerraMuerte/Monsters/Pikachu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuerraMuerte/Monsters/Pikachu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GuerraMuerte/Monsters/TedyBear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuerraMuerte/Monsters/TeddyBear.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GuerraMuerte/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuerraMuerte/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680011817214</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="new changes have been made.">
+      <created>1680175393461</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680175393461</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +167,7 @@
     <MESSAGE value="new" />
     <MESSAGE value="new project beginning" />
     <MESSAGE value="new project beginning." />
-    <option name="LAST_COMMIT_MESSAGE" value="new project beginning." />
+    <MESSAGE value="new changes have been made." />
+    <option name="LAST_COMMIT_MESSAGE" value="new changes have been made." />
   </component>
 </project>
