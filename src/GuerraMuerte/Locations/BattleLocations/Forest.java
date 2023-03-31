@@ -81,7 +81,7 @@ public class Forest extends BattleLocations{
         }
         if (this.isAlive()){
             System.out.println("\n=============================");
-            System.out.println("It was a good fight.You killed all enemies in the " + this.getName() + " " + this.getPlayer().getName() + "." +
+            System.out.println("It was a good fight.You killed all monsters in the " + this.getName() + " " + this.getPlayer().getName() + "." +
                     "\nYou got the wood.");
             this.getPlayer().setMoney(this.getPlayer().getMoney() + this.monsters.getEarning());
             System.out.println("Your remaining health is " + this.getPlayer().getHealthy() + "."+

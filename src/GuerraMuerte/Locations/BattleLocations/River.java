@@ -52,7 +52,7 @@ public class River extends BattleLocations{ //TedyBear
                 while (true) {
                     System.out.println(" ===== ===== ===== ===== ===== ");
                     // Monster attacks first
-                    System.out.println("The " + this.monsters.getName() + "attacked.");
+                    System.out.println("The " + this.monsters.getName() + " attacked.");
                     this.getPlayer().setHealthy(this.getPlayer().getHealthy() - this.monsters.getDamage());
                     int healthOfWarrior = this.getPlayer().getHealthy();
                     // Check if player is dead
@@ -82,7 +82,7 @@ public class River extends BattleLocations{ //TedyBear
         }
         if (this.isAlive()){
             System.out.println("\n=============================");
-            System.out.println("It was a good fight.You killed all enemies in the " + this.getName() + " " + this.getPlayer().getName() + "." +
+            System.out.println("It was a good fight.You killed all monsters in the " + this.getName() + " " + this.getPlayer().getName() + "." +
                     "\nYou got the water.");
             this.getPlayer().setMoney(this.getPlayer().getMoney() + this.monsters.getEarning());
             System.out.println("Your remaining health is " + this.getPlayer().getHealthy() + "."+

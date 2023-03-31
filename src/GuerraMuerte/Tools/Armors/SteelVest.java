@@ -3,7 +3,7 @@ package GuerraMuerte.Tools.Armors;
 public class SteelVest extends Armors {
 
     public SteelVest() {
-        super("Body Armor", 2, 3, 25);
+        super("Steel Vest", 2, 3, 25);
     }
 
     @Override
