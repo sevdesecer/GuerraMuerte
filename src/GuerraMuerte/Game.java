@@ -10,7 +10,6 @@ import GuerraMuerte.Monsters.Monsters;
 
 
 public class Game {
-
     private Scanner input = new Scanner(System.in);
     public void start() {
 
@@ -53,8 +52,8 @@ public class Game {
                 "\nEarning from the " + casper.getName() + " is " + casper.getEarning() + " gold." + "\n" +
                 "\n ===== ===== ===== ===== ===== " +
                 "\nYou have to get water from the river." +
-                "\n In fact, the teddy bear is a stuffed toy in the shape of a bear." +
-                "\n But the teddy bear you will see is quite lively and hates people. So kill him before he kills you, honey :)"+
+                "\nIn fact, the teddy bear is a stuffed toy in the shape of a bear." +
+                "\nBut the teddy bear you will see is quite lively and hates people. So kill him before he kills you, honey :)"+
                 "\n ===== ===== ===== ===== ===== \n" +
                 "Health of the " + teddyBear.getName() + " is " + teddyBear.getFirstHealth() + "." +
                 "\nDamage of the " + teddyBear.getName() + " is " + teddyBear.getDamage() + "." +

@@ -17,6 +17,7 @@ public class SafeHouse extends NormalLoc {
         System.out.println("\n ===== ===== ===== ===== ===== ");
         System.out.println("Welcome to the safe house.There are no monsters here. You are safe.");
         System.out.println("Your health has been renewed. Your current health is " + this.getPlayer().getFirstHealth() + ".");
+        System.out.println("Your remaining balance is " + this.getPlayer().getMoney() + ".");
         System.out.println("Your rest period is over, what would you like to do? Please select what you want to do ?");
         System.out.println("If you want to see your inventory, please press 0. " + "\n" +
                 "Else if you want to out of the safe house , please press 1.");
